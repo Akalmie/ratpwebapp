@@ -5,7 +5,7 @@ ___
 - Design avec HTML, CSS, JAVASCRIPT
 - Affiche dynamiquement la circulation de la ligne 8 à partir d'une station choisi.
 
-![beta](images/capture1.PNG)
+![beta](images/Capture1.PNG)
 
 ___
 
