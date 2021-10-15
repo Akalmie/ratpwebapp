@@ -11,11 +11,12 @@
   <section class="container">
     <div class="item" id="select">
       <p>Liste dynamique des stations de la ligne 8</p>
-      <select id="stationmetro"></select>
-      <input type="submit" value="Afficher les informations" onclick="return Validate()" />
+      <select id="stationmetro">
+      </select>
+      <input type="submit" id="btnSubmit" value="Afficher les informations" onclick="Validate()" />
+
     </div>
     <div class="item" id="results">
-      <p class="text">Résultats : </p>
     </div>
     <script src="main.js"></script>
   </body>
