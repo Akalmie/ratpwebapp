@@ -34,5 +34,6 @@ var apiStations = "https://api-ratp.pierre-grimaud.fr/v4/stations/metros/8";
           document.getElementById("results").innerHTML = dest;
           var element = document.getElementById("dataapi");
           element.style.backgroundColor = "#00FF00";
+        
       })
     }
