@@ -29,7 +29,7 @@ var apiStations = "https://api-ratp.pierre-grimaud.fr/v4/stations/metros/8";
           let dest=''
           
           for (var i = 0; i < test.length; i++) {
-            dest += "<div id='dataapi' value=> Direction: " + test[i].destination + " <br>Information :" +test[i].message +"<br></div>" 
+            dest += "<div id='dataapi' value=> Direction: " + test[i].destination + " <br>Information :" +test[i].message +"<br></div><br>" 
           }
           document.getElementById("results").innerHTML = dest;
           var element = document.getElementById("dataapi");
